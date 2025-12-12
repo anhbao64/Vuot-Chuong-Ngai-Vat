@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|d:\\unitygame\\v\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\movingverticalplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingverticalplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|d:\\unitygame\\v\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\movinghorizontalplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movinghorizontalplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\canvas\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvas\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|d:\\unitygame\\v\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\item\\killplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\killplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|d:\\unitygame\\v\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\player\\playercoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\datagame\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datagame\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\item\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\keyitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\canvas\\playtimeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvas\\playtimeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\item\\itemspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\itemspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\player\\playerspeedbuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerspeedbuff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\canvas\\speedbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvas\\speedbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\assets\\scripts\\item\\healitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA1EF1E-D0C5-5E37-0A00-457D4CFAD97E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\healitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +66,178 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MovingVerticalPlatform.cs",
-              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\MovingVerticalPlatform.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MovingVerticalPlatform.cs",
-              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\MovingVerticalPlatform.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MovingVerticalPlatform.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "KillPlayer.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\item\\KillPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\item\\KillPlayer.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\item\\KillPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\item\\KillPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T07:48:26.489Z",
+              "WhenOpened": "2025-12-12T16:47:42.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MovingHorizontalPlatform.cs",
-              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\MovingHorizontalPlatform.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MovingHorizontalPlatform.cs",
-              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\MovingHorizontalPlatform.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MovingHorizontalPlatform.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\canvas\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\canvas\\GameManager.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\canvas\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\canvas\\GameManager.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T07:47:40.882Z",
+              "WhenOpened": "2025-12-12T11:41:35.88Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayTimeUI.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\canvas\\PlayTimeUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\canvas\\PlayTimeUI.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\canvas\\PlayTimeUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\canvas\\PlayTimeUI.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA/wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T18:10:35.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpeedBar.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\canvas\\SpeedBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\canvas\\SpeedBar.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\canvas\\SpeedBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\canvas\\SpeedBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:28:15.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemSpeed.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\item\\ItemSpeed.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\item\\ItemSpeed.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\item\\ItemSpeed.cs",
+              "RelativeToolTip": "Assets\\Scripts\\item\\ItemSpeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:19:59.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:12:38.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv0oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:03:42.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameData.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\DataGame\\GameData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataGame\\GameData.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\DataGame\\GameData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataGame\\GameData.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T16:02:32.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerCoin.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\Player\\PlayerCoin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCoin.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\Player\\PlayerCoin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCoin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T16:41:00.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KeyItem.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\item\\KeyItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\item\\KeyItem.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\item\\KeyItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\item\\KeyItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T11:41:10.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HealItem.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\item\\HealItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\item\\HealItem.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\item\\HealItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\item\\HealItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:05:38.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerSpeedBuff.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\Player\\PlayerSpeedBuff.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerSpeedBuff.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\Player\\PlayerSpeedBuff.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerSpeedBuff.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:40:53.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBar.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthBar.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:22:04.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "D:\\UnityGame\\V\u01B0\u1EE3t ch\u01B0\u1EDBng ng\u1EA1i v\u1EADt\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:52:26.821Z"
             }
           ]
         }

@@ -2,7 +2,7 @@
 
 public class PlayerCollision : MonoBehaviour
 {
-    public int damagePerHit = 1; // mỗi lần va chạm trừ 1 HP
+    public int damagePerHit = 1;
 
     private PlayerHealth playerHealth;
 
@@ -15,6 +15,11 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayHurt();
+            }
+
             playerHealth.TakeDamage(damagePerHit);
         }
     }

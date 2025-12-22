@@ -29,36 +29,34 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Hồi máu. Trả về TRUE nếu hồi thành công.
-    /// Trả về FALSE nếu không hồi (full máu).
-    /// </summary>
     public bool Heal(int amount)
     {
         if (isDead) return false;
 
         if (currentHealth >= maxHealth)
-        {
-            // ❌ Full máu → không heal
             return false;
-        }
 
-        // ✔ Heal thành công
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-
         healthBar.UpdateUI();
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayPowerUp();
+        }
+
         return true;
     }
 
-    // =============================
-    //        ĐÃ CHỈNH TẠI ĐÂY
-    // =============================
-    public void Die()     // <--- đổi thành public
+    public void Die()
     {
         if (isDead) return;
-
         isDead = true;
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayExplosion();
+        }
 
         if (GameManager.Instance != null)
         {

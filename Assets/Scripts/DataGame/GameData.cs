@@ -2,25 +2,31 @@
 
 public static class GameData
 {
+    // Dữ liệu gameplay
     public static int currentCoin = 0;
     public static float currentTime = 0f;
 
-    // Lấy dữ liệu đã lưu từ PlayerPrefs
+    // Lưu tên scene trước khi load menu (để quay lại)
+    public static string lastScene = "MenuMapScene";
+
+    // ================== LOAD DATA ==================
     public static void LoadData()
     {
         currentCoin = PlayerPrefs.GetInt("TotalCoin", 0);
         currentTime = PlayerPrefs.GetFloat("TotalTime", 0f);
+        lastScene = PlayerPrefs.GetString("LastScene", "MenuMapScene");
     }
 
-    // Lưu lại vào PlayerPrefs khi cần
+    // ================== SAVE DATA ==================
     public static void SaveData()
     {
         PlayerPrefs.SetInt("TotalCoin", currentCoin);
         PlayerPrefs.SetFloat("TotalTime", currentTime);
+        PlayerPrefs.SetString("LastScene", lastScene);
         PlayerPrefs.Save();
     }
 
-    // Best record
+    // ================== BEST RECORD ==================
     public static void SaveBestRecord(float record)
     {
         float best = PlayerPrefs.GetFloat("BestRecord", float.MaxValue);

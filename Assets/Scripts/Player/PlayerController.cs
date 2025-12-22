@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Jump Settings")]
     public float jumpForce = 7f;
-    public float jumpDuration = 0.5f; // thời gian nhảy tối thiểu
+    public float jumpDuration = 0.5f;
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -23,20 +23,16 @@ public class PlayerController : MonoBehaviour
     private bool isJumping;
     private float jumpTimeCounter;
 
-    // ================== BOOST ==================
     private float originalSpeed;
     private float originalJumpForce;
-    private bool isBoosted = false;
-    // ============================================
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        rb.freezeRotation = true; // giữ player thẳng
+        rb.freezeRotation = true;
 
-        // Lưu giá trị gốc
         originalSpeed = moveSpeed;
         originalJumpForce = jumpForce;
     }
@@ -50,11 +46,15 @@ public class PlayerController : MonoBehaviour
 
     private void CheckGround()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        isGrounded = Physics2D.OverlapCircle(
+            groundCheck.position,
+            groundCheckRadius,
+            groundLayer
+        );
 
         if (isGrounded && rb.linearVelocity.y <= 0f)
         {
-            isJumping = false; // reset khi chạm đất
+            isJumping = false;
         }
     }
 
@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
             moveX = -1f;
             sr.flipX = true;
         }
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
             moveX = 1f;
             sr.flipX = false;
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
 
         rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
 
-        // Nhảy
+        // ===== JUMP =====
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
@@ -83,6 +83,12 @@ public class PlayerController : MonoBehaviour
 
             isJumping = true;
             jumpTimeCounter = jumpDuration;
+
+            // 🔊 JUMP SOUND
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayJump();
+            }
         }
 
         if (isJumping)
@@ -98,7 +104,6 @@ public class PlayerController : MonoBehaviour
     private void UpdateAnimation()
     {
         bool isRunning = Mathf.Abs(rb.linearVelocity.x) > 0.01f && isGrounded && !isJumping;
-
         anim.SetBool("isRunning", isRunning);
         anim.SetBool("isJumping", isJumping);
     }
@@ -110,29 +115,5 @@ public class PlayerController : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
-    }
-
-    // ==================================================
-    // =============== SPEED BOOST SYSTEM ===============
-    // ==================================================
-    public void ApplySpeedBoost(float multiplier, float duration)
-    {
-        if (!isBoosted)
-            StartCoroutine(SpeedBoost(multiplier, duration));
-    }
-
-    private IEnumerator SpeedBoost(float multiplier, float duration)
-    {
-        isBoosted = true;
-
-        moveSpeed *= multiplier;
-        jumpForce *= multiplier;
-
-        yield return new WaitForSeconds(duration);
-
-        moveSpeed = originalSpeed;
-        jumpForce = originalJumpForce;
-
-        isBoosted = false;
     }
 }

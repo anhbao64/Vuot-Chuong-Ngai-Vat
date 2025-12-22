@@ -6,8 +6,8 @@ public class PlayerSpeedBuff : MonoBehaviour
     public float jumpMultiplier = 1.5f;
     public float buffDuration = 10f;
 
-    public SpeedBar speedBar; // gán SpeedBar từ Inspector
-    public PlayerController playerController; // script di chuyển của bạn
+    public SpeedBar speedBar;
+    public PlayerController playerController;
 
     private float buffTimer = 0f;
     private bool isBuffActive = false;
@@ -35,9 +35,17 @@ public class PlayerSpeedBuff : MonoBehaviour
 
     public void ActivateBuff()
     {
-        buffTimer = buffDuration;          // reset về full 10s
-        speedBar.StartTimer(buffDuration); // reset UI
+        // ⏱ Reset thời gian MỖI LẦN ăn
+        buffTimer = buffDuration;
+        speedBar.StartTimer(buffDuration);
 
+        // 🔊 SOUND → kêu MỖI LẦN
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayPowerUp();
+        }
+
+        // ⚡ Chỉ tăng chỉ số 1 lần
         if (!isBuffActive)
         {
             isBuffActive = true;

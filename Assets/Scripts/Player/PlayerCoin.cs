@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class PlayerCoin : MonoBehaviour
@@ -15,6 +15,12 @@ public class PlayerCoin : MonoBehaviour
     {
         coinCount += amount;
         UpdateUI();
+
+        // 🔊 COIN SOUND
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayCoin();
+        }
     }
 
     void UpdateUI()
